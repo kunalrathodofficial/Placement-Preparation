@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {  
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+void insertionSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; i++) {  
+        for (int j = i + 1; j < size; j++) { 
+    }
+    }
+}
+
+int main() {
+    int arr[5] = {64, 25, 12, 22, 11};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    printArray(arr, size);  
+    insertionSort(arr, size);  
+    printArray(arr, size);  
+
+    return 0;
+}

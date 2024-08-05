@@ -9,7 +9,7 @@ void swapElement(int arr1[], int start, int end) {
 }
 
 int main() {
-    int arr1[10] = {0,2,2,1,0,1,1,0,2};
+    int arr1[5] = {0,2,1,2,0};
     int size = sizeof(arr1) / sizeof(arr1[0]);
     int start = 0;
     int mid =0;
